@@ -86,11 +86,9 @@ function Player(myname, card1, card2) {
         if(this.isbust()){
             console.log("Bust: "+ this.name + " Went Bust");
             document.getElementById("hit").disabled = true;
-            document.getElementById("stand").disabled = true;
         } else if(this.isWin()){
             console.log("Game Over: " + this.name + " Won");
             document.getElementById("hit").disabled = true;
-            document.getElementById("stand").disabled = true;
         }
     }
 
@@ -124,6 +122,7 @@ function Player(myname, card1, card2) {
     this.stand = function(){
         // Delete the onclick() parameter of butt
         document.getElementById("hit").disabled = true;
+        document.getElementById("stand").disabled = true;
     }
 
 }
