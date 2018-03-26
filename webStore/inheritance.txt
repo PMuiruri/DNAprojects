@@ -1,0 +1,12 @@
+ Assignment
+
+You get to choose between two different tasks that cover the same topic of inheritance.
+
+
+1. Use the code snippet for Role Playing game (found in #programming channel with name JS Inheritance) and create more classes that inherit properties from Hero -class. Give them unique properties and methods.
+
+Create a function called encounter() that will simulate a fight between heroes and monsters. How you decide to do this I leave up to you. Make use of all the properties and methods.
+
+OR
+
+2. Create an UI for a web store that lets employees add new items to the store. Use the inheritance chain we created in class (Cheese=>Food=>Product). The UI asks the employee the category, id, name and price of the item and adds a corresponding product to the site. The UI should also show how many of each item are in the storage. 
