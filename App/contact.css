@@ -6,10 +6,11 @@
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
     border-radius: 20px;
     border: 10px solid #305A72;
+    font: 12px 'Questrial', Arial, Helvetica, sans-serif;
 }
 h2, h4{
   margin: 2% 0% 0% 5%;
-  font: 14px Questrial Arial, Helvetica, sans-serif;
+  font: 14px 'Questrial', Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
@@ -28,8 +29,8 @@ h2, h4{
     box-sizing: border-box;
     padding: 1.5%;
     outline: none;
-    background-color: #e0d0e1;
-    border: 1px solid #e0d0e1;
+    background-color: rgb(210, 188, 211, .4);
+    border: 1px solid rgb(210, 188, 211, .4);
     border-radius: 20px;
 
 }.form-style ul li  .field-style:focus{
@@ -65,7 +66,7 @@ h2, h4{
     color: #FFFFFF;
     padding: 8px 18px;
     text-decoration: none;
-    font: 12px Questrial Arial, Helvetica, sans-serif;
+    font: 12px 'Questrial', Arial, Helvetica, sans-serif;
 }
 .form-style ul li input[type="button"]:hover,
 .form-style ul li input[type="submit"]:hover {
