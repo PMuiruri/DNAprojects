@@ -16,7 +16,6 @@ h2, h4{
 form.container-split{
     width: 45%;
     margin: 5% 2% 0% 2%;
-
 }
 
 form.align-left{
@@ -53,6 +52,18 @@ form.align-right{
     margin-right: 2%;
     margin-bottom: 2%;
 }
+@media (max-width: 600px){
+  form.container-split{
+      width: 98%;
+      margin: 5% 2% 0% 2%;
+  }
+  .form-style ul li .field-split{
+      width: 88%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+  }
+}
+
 .form-style ul li .field-full{
     margin-bottom: 2%;
     width: 88%;
@@ -69,7 +80,6 @@ form.align-right{
 }
 .form-style ul li input[type="button"],
 .form-style ul li input[type="submit"] {
-    box-shadow: inset 0px 1px 0px 0px #3985B1;
     background-color: #58bc82;
     border: 1px solid;
     border-radius: 20px;
